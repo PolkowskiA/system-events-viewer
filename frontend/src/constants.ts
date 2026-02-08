@@ -1,8 +1,7 @@
 import type { EventLevel } from "./types";
 
 export const LEVELS: EventLevel[] = ["DEBUG", "INFO", "WARNING", "ERROR"];
-export const API_BASE =
-  import.meta.env.VITE_API_URL ?? "http://192.168.0.179:3000";
+export const API_BASE = import.meta.env.VITE_API_URL ?? "http://localhost:3000";
 
 export const levelLabels: Record<EventLevel, string> = {
   DEBUG: "Debug",
