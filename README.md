@@ -28,13 +28,7 @@ Frontend startuje domyślnie na `http://localhost:5173`.
 
 Frontend pobiera dane z API ustawionego w `VITE_API_URL`.
 
-Domyślna wartość w kodzie to `http://192.168.0.179:3000`.
-
-Przykład uruchomienia z inną bazą API:
-
-```bash
-VITE_API_URL=http://localhost:3000 npm run dev
-```
+Domyślna wartość w kodzie to `http:/localhost:3000`.
 
 ## API
 
